@@ -62,6 +62,6 @@ def control_studio():
     except Exception as e:
         return jsonify({"error": f"Server Error: {str(e).lower().replace('lightning', 'aws')}"}), 500
 
-if __name__ == '__main__':
-    # app.run(debug=True)
-    app.run(host="0.0.0.0", port=5000)
+# if __name__ == '__main__':
+#     # app.run(debug=True)
+#     app.run(host="0.0.0.0", port=5000)
